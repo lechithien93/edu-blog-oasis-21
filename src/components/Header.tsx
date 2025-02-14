@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header className="relative h-[500px] mb-16">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <nav className="relative container mx-auto px-4 py-6">
