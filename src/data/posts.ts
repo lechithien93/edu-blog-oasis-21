@@ -67,7 +67,126 @@ export const blogPosts = [
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=2000&q=80",
     date: "March 14, 2024",
     category: "Classroom Management",
-    content: "..." // Similar detailed content structure as above
+    content: `
+      <h2 id="introduction">Introduction</h2>
+      <p>Creating an inclusive classroom environment is essential for ensuring all students have equal opportunities to learn and succeed. This comprehensive guide explores practical strategies for fostering inclusivity in your classroom.</p>
+
+      <h2 id="understanding">Understanding Inclusive Education</h2>
+      <p>Inclusive education means creating a learning environment where every student, regardless of their background, abilities, or challenges, feels welcome and supported.</p>
+
+      <h3 id="benefits">Benefits of Inclusion</h3>
+      <p>Research shows that inclusive classrooms benefit all students, not just those with special needs or from diverse backgrounds. Students develop empathy, understanding, and better social skills.</p>
+
+      <h2 id="strategies">Key Strategies</h2>
+      <p>Let's explore practical strategies for creating and maintaining an inclusive classroom environment.</p>
+
+      <h3 id="physical-space">Physical Space Design</h3>
+      <p>Arrange your classroom to accommodate different learning styles and physical needs. Consider flexible seating arrangements and accessible materials.</p>
+
+      <h3 id="curriculum">Inclusive Curriculum</h3>
+      <p>Develop lessons that represent diverse perspectives and experiences. Use materials that reflect different cultures, abilities, and backgrounds.</p>
+
+      <h2 id="communication">Effective Communication</h2>
+      <p>Clear and inclusive communication is fundamental to creating a welcoming environment.</p>
+
+      <h3 id="language">Inclusive Language</h3>
+      <p>Use language that is respectful and inclusive of all students. Avoid assumptions and stereotypes in your communication.</p>
+
+      <h2 id="conclusion">Conclusion</h2>
+      <p>Creating an inclusive classroom is an ongoing process that requires dedication and continuous learning, but the benefits for all students make it worthwhile.</p>
+    `
   },
-  // Add 7 more posts with similar structure
+  {
+    id: 3,
+    title: "Effective Teaching Strategies for Different Learning Styles",
+    excerpt: "Discover how to adapt your teaching methods to accommodate visual, auditory, and kinesthetic learners.",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=2000&q=80",
+    date: "March 13, 2024",
+    category: "Teaching Methods",
+    content: `
+      <h2 id="introduction">Introduction</h2>
+      <p>Understanding and accommodating different learning styles is crucial for effective teaching. This guide explores various teaching strategies that cater to different types of learners.</p>
+
+      <h2 id="learning-styles">Understanding Learning Styles</h2>
+      <p>Every student has a preferred way of learning. Some learn best through visual aids, others through listening, and some through hands-on activities.</p>
+
+      <h3 id="visual-learners">Visual Learners</h3>
+      <p>Visual learners process information best through pictures, diagrams, and written instructions. Use charts, mind maps, and visual presentations to engage these students.</p>
+
+      <h3 id="auditory-learners">Auditory Learners</h3>
+      <p>These learners prefer listening and speaking. Incorporate discussions, oral presentations, and audio materials into your lessons.</p>
+
+      <h2 id="conclusion">Conclusion</h2>
+      <p>By understanding and accommodating different learning styles, teachers can create more effective and engaging lessons for all students.</p>
+    `
+  },
+  {
+    id: 4,
+    title: "Managing Student Behavior: Positive Reinforcement Techniques",
+    excerpt: "Learn how to effectively manage classroom behavior using positive reinforcement strategies.",
+    image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=2000&q=80",
+    date: "March 12, 2024",
+    category: "Classroom Management",
+    content: `
+      <h2 id="introduction">Introduction</h2>
+      <p>Positive reinforcement is a powerful tool for managing student behavior and creating a productive learning environment. This article explores effective techniques and their implementation.</p>
+
+      <h2 id="understanding">Understanding Positive Reinforcement</h2>
+      <p>Positive reinforcement involves acknowledging and rewarding desired behaviors to encourage their continuation. It's more effective than punishment-based approaches.</p>
+
+      <h3 id="benefits">Benefits of Positive Reinforcement</h3>
+      <p>Research shows that positive reinforcement improves student behavior, increases motivation, and creates a more positive classroom atmosphere.</p>
+
+      <h2 id="conclusion">Conclusion</h2>
+      <p>Implementing positive reinforcement techniques can transform your classroom management approach and create a more positive learning environment.</p>
+    `
+  },
+  {
+    id: 5,
+    title: "Incorporating Project-Based Learning in Your Curriculum",
+    excerpt: "Explore the benefits of project-based learning and how to implement it effectively in your classroom.",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2000&q=80",
+    date: "March 11, 2024",
+    category: "Teaching Methods",
+    content: `
+      <h2 id="introduction">Introduction</h2>
+      <p>Project-based learning (PBL) is an innovative teaching method that engages students in real-world problem-solving while developing critical thinking skills.</p>
+
+      <h2 id="benefits">Benefits of PBL</h2>
+      <p>Project-based learning helps students develop problem-solving skills, creativity, and collaboration abilities while maintaining engagement with the subject matter.</p>
+
+      <h3 id="implementation">Implementation Strategies</h3>
+      <p>Learn how to effectively implement PBL in your classroom, from planning projects to assessment methods.</p>
+
+      <h2 id="conclusion">Conclusion</h2>
+      <p>Project-based learning can transform your teaching approach and provide students with valuable real-world skills.</p>
+    `
+  },
+  {
+    id: 6,
+    title: "Supporting Student Mental Health in the Classroom",
+    excerpt: "Essential strategies for teachers to support and promote student mental health and well-being.",
+    image: "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?auto=format&fit=crop&w=2000&q=80",
+    date: "March 10, 2024",
+    category: "Student Welfare",
+    content: `
+      <h2 id="introduction">Introduction</h2>
+      <p>Student mental health is increasingly important in education. This guide provides teachers with strategies to support student well-being while maintaining academic progress.</p>
+
+      <h2 id="understanding">Understanding Mental Health in Education</h2>
+      <p>Mental health affects learning, behavior, and overall student success. Teachers play a crucial role in identifying and supporting students' mental health needs.</p>
+
+      <h3 id="warning-signs">Recognizing Warning Signs</h3>
+      <p>Learn to identify common signs of mental health challenges in students and understand when to seek professional support.</p>
+
+      <h2 id="strategies">Support Strategies</h2>
+      <p>Discover practical strategies for creating a supportive classroom environment that promotes mental well-being.</p>
+
+      <h3 id="self-care">Teaching Self-Care</h3>
+      <p>Help students develop healthy coping mechanisms and self-care practices that support their mental health.</p>
+
+      <h2 id="conclusion">Conclusion</h2>
+      <p>Supporting student mental health is essential for creating an effective learning environment and helping students reach their full potential.</p>
+    `
+  }
 ];
