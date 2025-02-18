@@ -6,9 +6,9 @@ const Logo = () => {
   return (
     <Link to="/" className="flex items-center gap-2">
       <img 
-        src="/lovable-uploads/6c90a83f-970e-4434-ab70-9faa535992a9.png" 
+        src="/lovable-uploads/86059618-bc67-454c-b573-e51eb767d9ef.png" 
         alt="Teacher Hub Logo" 
-        className="h-8 w-auto"
+        className="h-12 w-auto"
       />
     </Link>
   );
