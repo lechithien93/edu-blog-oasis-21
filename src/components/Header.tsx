@@ -34,9 +34,7 @@ const Header = ({ showBanner = false }: HeaderProps) => {
       )}
       <nav className={`relative container mx-auto px-4 py-6 ${!showBanner && 'bg-primary text-white'}`}>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <Link to="/" className="inline-block">
-            <Logo />
-          </Link>
+          <Logo />
           <div className="flex items-center gap-6">
             <div className="hidden md:flex items-center gap-6">
               {categories.map((category) => (

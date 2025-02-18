@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,8 +19,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Teacher Hub</h3>
-            <p className="text-gray-600">
+            <Logo />
+            <p className="text-gray-600 mt-4">
               Empowering educators with knowledge and resources for better teaching.
             </p>
           </div>
