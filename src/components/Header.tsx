@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Input } from './ui/input';
+import Logo from './Logo';
 
 interface HeaderProps {
   showBanner?: boolean;
@@ -34,7 +35,7 @@ const Header = ({ showBanner = false }: HeaderProps) => {
       <nav className={`relative container mx-auto px-4 py-6 ${!showBanner && 'bg-primary text-white'}`}>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <Link to="/" className="inline-block">
-            <h2 className="text-2xl font-bold text-white">Teacher Hub</h2>
+            <Logo />
           </Link>
           <div className="flex items-center gap-6">
             <div className="hidden md:flex items-center gap-6">
