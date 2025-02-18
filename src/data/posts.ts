@@ -1,4 +1,3 @@
-
 export const blogPosts = [
   {
     id: 1,
@@ -187,6 +186,81 @@ export const blogPosts = [
 
       <h2 id="conclusion">Conclusion</h2>
       <p>Supporting student mental health is essential for creating an effective learning environment and helping students reach their full potential.</p>
+    `
+  },
+  {
+    id: 7,
+    title: "Building Strong Parent-Teacher Relationships",
+    excerpt: "Learn how to foster effective communication and collaboration with parents to support student success.",
+    image: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=2000&q=80",
+    date: "March 9, 2024",
+    category: "Communication",
+    content: `
+      <h2>Introduction</h2>
+      <p>Strong parent-teacher relationships are fundamental to student success. This guide explores effective strategies for building and maintaining these vital partnerships.</p>
+      
+      <h2>Key Strategies</h2>
+      <p>Discover practical approaches to enhance parent-teacher communication and collaboration.</p>
+    `
+  },
+  {
+    id: 8,
+    title: "Digital Assessment Tools for Modern Classrooms",
+    excerpt: "Explore innovative digital tools for effective student assessment and progress tracking.",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=2000&q=80",
+    date: "March 8, 2024",
+    category: "Technology",
+    content: `
+      <h2>Introduction</h2>
+      <p>Digital assessment tools are transforming how teachers evaluate student progress. Learn about the latest tools and best practices.</p>
+    `
+  },
+  {
+    id: 9,
+    title: "Differentiated Instruction Strategies",
+    excerpt: "Master the art of adapting teaching methods to meet diverse student needs and learning styles.",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=2000&q=80",
+    date: "March 7, 2024",
+    category: "Teaching Methods",
+    content: `
+      <h2>Introduction</h2>
+      <p>Differentiated instruction ensures that all students can learn effectively, regardless of their learning style or ability level.</p>
+    `
+  },
+  {
+    id: 10,
+    title: "Creating Engaging Lesson Plans",
+    excerpt: "Tips and techniques for developing lesson plans that capture and maintain student interest.",
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=2000&q=80",
+    date: "March 6, 2024",
+    category: "Teaching Methods",
+    content: `
+      <h2>Introduction</h2>
+      <p>Engaging lesson plans are key to student success. Learn how to create lessons that students will love.</p>
+    `
+  },
+  {
+    id: 11,
+    title: "Classroom Management in the Digital Age",
+    excerpt: "Modern strategies for maintaining an orderly and productive learning environment.",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=2000&q=80",
+    date: "March 5, 2024",
+    category: "Classroom Management",
+    content: `
+      <h2>Introduction</h2>
+      <p>Managing a modern classroom requires new approaches that account for technology and changing student needs.</p>
+    `
+  },
+  {
+    id: 12,
+    title: "Supporting Students with Special Needs",
+    excerpt: "Essential strategies for creating an inclusive classroom environment for all learners.",
+    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=2000&q=80",
+    date: "March 4, 2024",
+    category: "Student Welfare",
+    content: `
+      <h2>Introduction</h2>
+      <p>Creating an inclusive environment for students with special needs is crucial for their success and well-being.</p>
     `
   }
 ];
