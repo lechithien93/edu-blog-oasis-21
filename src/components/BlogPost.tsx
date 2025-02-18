@@ -18,14 +18,14 @@ interface BlogPostProps {
 
 const BlogPost = ({ id, title, excerpt, image, date, category, author }: BlogPostProps) => {
   return (
-    <article className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
+    <article className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-[1.02] transition-transform duration-300 flex flex-col">
       <Link to={`/post/${id}`}>
         <img 
           src={image} 
           alt={title}
           className="w-full h-48 object-cover"
         />
-        <div className="p-6">
+        <div className="p-6 flex flex-col flex-grow">
           <div className="flex items-center justify-between mb-4">
             <Link 
               to={`/category/${category.toLowerCase()}`}
@@ -51,8 +51,8 @@ const BlogPost = ({ id, title, excerpt, image, date, category, author }: BlogPos
               <span className="text-sm text-gray-700">{author.name}</span>
             </div>
           )}
-          <div className="flex items-center justify-between">
-            <button className="group inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium transition-colors">
+          <div className="mt-auto">
+            <button className="w-full px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 group">
               Read More 
               <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
             </button>

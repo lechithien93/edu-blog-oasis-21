@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TableOfContents from '../components/TableOfContents';
 import { blogPosts } from '../data/posts';
@@ -15,13 +16,7 @@ const PostDetail = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white shadow-sm">
-        <div className="container mx-auto px-4 py-4">
-          <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
-            Teacher Hub
-          </Link>
-        </div>
-      </nav>
+      <Header />
 
       <div className="relative h-[400px]">
         <div className="absolute inset-0">
