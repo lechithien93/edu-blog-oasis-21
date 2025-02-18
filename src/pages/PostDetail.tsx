@@ -35,14 +35,28 @@ const PostDetail = () => {
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-4">
-              <span className="px-3 py-1 bg-white/10 text-white rounded-full">
+              <Link 
+                to={`/category/${post.category.toLowerCase()}`}
+                className="px-3 py-1 bg-white/10 text-white rounded-full hover:bg-white/20 transition-colors"
+              >
                 {post.category}
-              </span>
+              </Link>
               <span className="text-white/80">{post.date}</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               {post.title}
             </h1>
+            <Link to="/author" className="flex items-center gap-3">
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+                alt="John Doe"
+                className="w-12 h-12 rounded-full border-2 border-white"
+              />
+              <div className="text-white">
+                <div className="font-semibold">John Doe</div>
+                <div className="text-sm opacity-80">Senior Education Specialist</div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

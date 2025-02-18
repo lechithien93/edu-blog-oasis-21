@@ -55,7 +55,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["Nunito", "sans-serif"],
       },
       keyframes: {
         "fade-in": {
