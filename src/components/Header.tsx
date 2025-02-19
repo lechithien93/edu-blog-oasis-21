@@ -42,7 +42,7 @@ const Header = ({ showBanner = false }: HeaderProps) => {
           </div>
         </div>
       )}
-      <nav className={`fixed top-0 left-0 right-0 z-50 ${!showBanner ? 'bg-primary' : 'bg-[rgba(45,54,66,0.8)]'} shadow-md`}>
+      <nav className={`fixed top-0 left-0 right-0 z-50 ${!showBanner ? 'bg-primary' : 'bg-[rgba(45,54,66,0.8)] backdrop-blur-md'} shadow-md`}>
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <Logo />
